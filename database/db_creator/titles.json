@@ -1,0 +1,239 @@
+[{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcaeb"
+	},
+	"name": "Junior React Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcaed"
+	},
+	"name": "Angular Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcaef"
+	},
+	"name": "Junior Frontend Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcaf1"
+	},
+	"name": "Junior JavaScript Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcaf3"
+	},
+	"name": "Senior JavaScript Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcaf5"
+	},
+	"name": "RoR Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcaf7"
+	},
+	"name": "React Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcaf9"
+	},
+	"name": "Frontend Engineer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcafc"
+	},
+	"name": "Junior PHP Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcafe"
+	},
+	"name": "Junior C++ Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb00"
+	},
+	"name": "Junior Python Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb02"
+	},
+	"name": "Junior Java Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb04"
+	},
+	"name": "Senior PHP Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb06"
+	},
+	"name": "Senior C++ Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb08"
+	},
+	"name": "Senior Python Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb0a"
+	},
+	"name": "Senior Java Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb0c"
+	},
+	"name": ".NET Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb0e"
+	},
+	"name": "Scala Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb10"
+	},
+	"name": "Node.js Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb13"
+	},
+	"name": "Full-stack .NET",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb15"
+	},
+	"name": "Full-stack Java",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb17"
+	},
+	"name": "Full-stack Angular/JS",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb19"
+	},
+	"name": "Full-stack Python/Django",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb1b"
+	},
+	"name": "Full-stack Engineer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb1d"
+	},
+	"name": "Full-stack PHP",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb1f"
+	},
+	"name": "Full-stack .NET Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb21"
+	},
+	"name": "Full-stack Developer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb24"
+	},
+	"name": "Manual Tester",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb26"
+	},
+	"name": "QA Engineer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb29"
+	},
+	"name": "DevOps Engineer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb2c"
+	},
+	"name": "UX/UI Designer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb2e"
+	},
+	"name": "UX Designer",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb31"
+	},
+	"name": "Project Manager",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb33"
+	},
+	"name": "Junior Project Manager",
+	"__v": 0
+}]
+

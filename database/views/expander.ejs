@@ -1,0 +1,179 @@
+<div class="header exp-component">
+	<span class="exit">
+		<span class="exit__contain"></span>
+	</span>
+	<div class="row">				
+		<div class="col-1-2">
+			<div class="company">
+				<div class="company__info">
+					<div class="company__info-logo">
+						<a href="#">
+							<img src="http://via.placeholder.com/100x100">
+						</a>
+					</div>
+					<div class="company__info-link">
+						<a>Janusz Soft Sp. z o.o.</a>
+					</div>
+				</div>
+				<ul class="header__list">
+					<li>
+						<span class="word">Markets:</span>
+						<span class="empty">&nbsp;</span>
+						<span class="input">Fintech</span>
+					</li>
+					<li>
+						<span class="word">Company size:</span>
+						<span class="empty">&nbsp;</span>
+						<span class="input">180+</span>
+					</li>
+					<li>
+						<span class="word">Remote friendly:</span>
+						<span class="empty">&nbsp;</span>
+						<span class="input">Yes</span>
+					</li>
+					<li>
+						<span class="word">Job offers:</span>
+						<span class="empty">&nbsp;</span>
+						<span class="input">12</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-1-2">
+			<div class="short-info">
+				
+			
+				<div class="short-info__pos">
+					<h3>developer</h3>
+				</div>
+				
+				<ul class="header__list">
+					<li>
+						<span class="word">Location:</span>
+						<span class="empty">&nbsp;</span>
+						<span class="input"><%= jobs.location.name %></span>
+					</li>
+					<li>
+						<span class="word">Salary:</span>
+						<span class="empty">&nbsp;</span>
+						<% if (jobs.salaryRange.from == 0) { %>
+							<span class="input">to <%= jobs.salaryRange.to %> <%= jobs.salaryRange.currency.name %></span>
+						<% } else { %>
+							<span class="input">from <%= jobs.salaryRange.from %> to <%= jobs.salaryRange.to %> <%= jobs.salaryRange.currency.name %></span>
+						<% } %>
+					</li>
+					<li>
+						<span class="word">Employment type:</span>
+						<span class="empty">&nbsp;</span>
+						<span class="input"><%= jobs.type %></span>
+					</li>
+				</ul>
+			</div>											
+		</div>
+	</div>
+</div>
+<div class="exp-component u-marg-bot-3">
+	<div class="row">
+		<div class="p">
+			<%= jobs.description %>
+		</div>
+	</div>
+</div>
+
+<div class="benefits exp-component">
+	<div class="row">
+		<ul class="benefits__list">
+			<% var benefitsArray = ['inHouseTrainings', 'Training budget', 'teamEvents', 'kitchen', 'shower', 'healthCare', 'freeCoffee', 'freeLunch', 'freeParking', 'bikeParking', 'gym', 'playRoom']; %>
+			<% for (var j = 0; j < benefitsArray.length; j++) { %>
+				<li>
+					<div class="benefits__benefit">
+						<span><%= benefitsArray[j] %></span>
+					</div>
+					<div class="benefits__image">
+						<% if (jobs.perks[j]) { %>
+							<img src="http://via.placeholder.com/45x45">
+						<% } else { %>
+							<img src="http://via.placeholder.com/45x45">
+						<% } %>
+					</div>													
+				</li>							
+			<% } %>																			
+		</ul>
+	</div>										
+</div>
+
+<div class="req exp-component">
+	<div class="row">											
+		<div class="req__tech-box">
+			<h4>Must have</h4>
+			<ul class="req__tech-list">
+				<% for (var k = 0; k < jobs.skills.mustHave.length; k++) { %>
+					<li>
+						<div class="req__tech-name">
+							<span><%= jobs.skills.mustHave[k].name %></span>
+						</div>
+						<div class="empty"></div>
+						<div class="req__tech-stars">
+							<% if (jobs.skills.mustHave[k].level == 1) { %>
+								<img src="http://via.placeholder.com/90x30">
+							<% } else if (jobs.skills.mustHave[k].level == 2) { %>
+								<img src="http://via.placeholder.com/90x30">
+							<% } else { %>
+								<img src="http://via.placeholder.com/90x30">
+							<% } %>
+						</div>
+					</li>							
+				<% } %>
+			</ul>
+		</div>
+	
+		<div class="req__tech-box">
+			<h4>Nice to have</h4>
+			<ul class="req__tech-list">
+				<% for (var v = 0; v < jobs.skills.niceToHave.length; v++) { %>
+					<li>
+						<div class="req__tech-name">
+							<span><%= jobs.skills.niceToHave[v].name %></span>
+						</div>
+						<div class="empty">&nbsp;</div>
+						<div class="req__tech-stars">
+							<% if (jobs.skills.niceToHave[v].level == 1) { %>
+								<img src="http://via.placeholder.com/90x30">
+							<% } else if (jobs.skills.niceToHave[v].level == 2) { %>
+								<img src="http://via.placeholder.com/90x30">
+							<% } else { %>
+								<img src="http://via.placeholder.com/90x30">
+							<% } %>
+						</div>
+					</li>							
+				<% } %>	
+			</ul>
+		</div>
+	
+		<div class="req__lang-box">
+			<h4>Languages</h4>
+			<ul class="req__tech-list">
+				<% for (var x = 0; x < jobs.skills.languages.length; x++) { %>
+					<li>
+						<div class="req__tech-name">
+							<span><%= jobs.skills.languages[x].name %></span>
+						</div>
+						<div class="empty">&nbsp;</div>
+						<div class="req__tech-stars">
+							<% if (jobs.skills.languages[x].level == 1) { %>
+								<img src="http://via.placeholder.com/90x30">
+							<% } else if (jobs.skills.languages[x].level == 2) { %>
+								<img src="http://via.placeholder.com/90x30">
+							<% } else { %>
+								<img src="http://via.placeholder.com/90x30">
+							<% } %>
+						</div>
+					</li>							
+				<% } %>
+			</ul>
+		</div>											
+	</div>
+	<div class="btn-class">
+		<a href="#" class="btn">aplikuj</a>
+	</div>
+</div>

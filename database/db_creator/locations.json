@@ -1,0 +1,71 @@
+[{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb38"
+	},
+	"name": "Warszawa",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb39"
+	},
+	"name": "Krakow",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb3a"
+	},
+	"name": "Wroclaw",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb3b"
+	},
+	"name": "Gdansk",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb3c"
+	},
+	"name": "Poznan",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb3d"
+	},
+	"name": "Lodz",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb3e"
+	},
+	"name": "Gdynia",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb3f"
+	},
+	"name": "Lublin",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb40"
+	},
+	"name": "Katowice",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb41"
+	},
+	"name": "Gliwice",
+	"__v": 0
+}]
+

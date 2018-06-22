@@ -1,0 +1,20 @@
+.main-team {
+    background: $background-light;
+
+	.row {
+	    margin-top: 90px;
+	}
+
+	.box {
+	    padding: 0 20px;
+	  
+	    text-align: center;
+	}
+	.box__photo img {
+	    border-radius: 50%;
+	}
+	
+	.box__photo-overlay {
+	    border-radius: 50%;
+	}    
+}

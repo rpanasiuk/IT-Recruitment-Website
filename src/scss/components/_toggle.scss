@@ -1,0 +1,62 @@
+@media (max-width:515px) {
+
+  .page-header .page-header__logo {
+    margin: 0;
+  }
+
+  nav.nav {
+    
+    .nav-btn {
+      display: block;
+      padding-top: 17px;
+      position: absolute;
+      right: 15px;
+      top: 0px;
+
+      label {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        padding: 13px;
+      }
+
+      label:hover {
+        background-color: rgba(0, 0, 0, 0.3);
+      }
+
+      label > span {
+        display: block;
+        width: 25px;
+        height: 10px;
+        border-top: 2px solid #eee;
+      }
+    }
+
+    .nav__list {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: #333;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 70px;
+      left: 0px;
+
+      a {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    #nav-check:not(:checked) + .nav__list {
+      height: 0px;
+    }
+
+    #nav-check:checked + .nav__list {
+      height: auto;
+      overflow-y: auto;
+    }  
+  }
+}

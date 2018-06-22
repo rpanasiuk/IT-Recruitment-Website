@@ -1,0 +1,90 @@
+.btn {
+    text-align: center;
+    text-decoration: none;
+    padding:17px 20px;
+    font-size:15px;
+    font-weight: bold;
+    border-radius: 30px;
+    border: 0;
+    background: $color1;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    min-width: 170px;
+    transition: 0.5s all;
+    cursor: pointer;
+
+	&:hover {
+	    background: $color2;
+	}
+	
+	&:disabled {
+	    cursor: default;
+	    opacity:0.5;
+	}
+
+	&.loading {
+	    position: relative;
+
+	    &:after {
+		    content: '';
+		    width: 25px;
+		    height: 25px;
+		    border-radius: 50%;
+		    border: 2px solid rgba(#fff, 0.3);
+		    border-right-color: #fff;
+		    position: absolute;
+		    transform: translate(-50%, -50%) rotate(0);
+		    left: 30px;
+		    top: 50%;
+		    animation: loadingAnim 0.6s 0s infinite linear;
+		}
+	}
+}
+
+.btn-slide {
+	display: inline-block;
+	font-size: 1.6rem;
+	font-weight: bold;
+	padding: 25px;
+	border: 1px solid #fff;
+	color: #fff;
+	width: 250px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	border-radius: 40px;
+	margin-top: 50px;
+}
+
+.btn--expander {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.4rem;
+	font-weight: 600;
+	display: inline-block;
+	background: green;
+	color: #fff;
+	padding: 10px 30px;
+	line-height: 2;
+	border-radius: 4rem;
+}
+
+.btn--box {
+	display: inline-block;
+	background: violet;
+	color: #222;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	padding: 10px;
+	border-radius: 19px;
+	margin-top: 30px;
+}
+
+@media (max-width:515px) {
+
+	.btn-slide {
+	    padding: 20px;
+	}
+}

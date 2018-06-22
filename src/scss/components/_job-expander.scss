@@ -1,0 +1,363 @@
+.job-expander {
+	font-size: 1.6rem;
+	display: none;
+	width: 100%;
+	height: 100%;
+	padding: 1.5rem;
+	text-align: left;
+	overflow: hidden;
+}
+
+.header {
+	margin-bottom: 3rem;
+	position: relative;
+
+	.col-1-2:last-of-type {
+		flex: 1;
+	}
+}
+
+.header__list {
+	list-style: none;
+	padding: 0 10px;
+	width: 80%;
+	margin: 10px auto;
+
+	li {
+		display: flex;
+		padding: 3px 0;
+		margin: 0 auto;
+
+		.word {
+			margin-right: 10px;
+			display: flex;
+			justify-content: flex-start;
+		}
+
+		.empty {
+			flex-grow: 1;
+		}
+
+		.input {
+			display: flex;
+			justify-content: flex-start;
+			text-align: right;
+		}
+	}		
+}
+
+.company {}
+
+.company__info {
+	display: flex;
+	flex-wrap: wrap;
+
+	&-logo {
+		display: flex;		
+		flex: 1;		
+		justify-content: center;
+		text-align: center;
+		margin-bottom: 0.6rem;
+
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+
+	&-link {
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		min-width: 200px;
+
+		a {
+			margin: 0 10px;
+			display: block;
+		}
+	}
+}
+
+.short-info {
+	width: 100%;
+
+	&__pos {
+		height: 100px;
+		display: flex;
+		justify-content: center;
+		text-align: center;
+		align-items: center;
+		text-transform: uppercase;
+	}	
+}
+
+.exit {
+	position: absolute;
+	width: 6rem;
+	height: 6rem;
+	top: 1rem;
+	right: 1rem;
+	cursor: pointer;
+
+	&__contain {
+		display: inline-block;
+		width: 4rem;
+		height: 4rem;
+		position: relative;
+		margin: 1rem;
+
+		&:before,
+		&:after {
+			content: '';
+			position: absolute;
+			width: 100%;
+			top: 50%;
+			height: 1px;
+			background: #888;
+			transform: rotate(45deg);
+		}
+
+		&:after {
+			transform: rotate(-45deg);
+		}
+
+		&:hover:before,
+		&:hover:after {
+			background: #333;				
+		}	
+	}	
+}
+
+.benefits {
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
+.benefits__list {	
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+	li {
+		min-width: 200px;
+		flex: 1;
+		display: flex;
+		align-items: center;		
+
+		.benefits__benefit {
+			flex-grow: 1;
+			text-align: center;
+			margin-right: 20px;
+		}
+
+		.benefits__image {			
+			width: 30%;
+		}
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.req {
+	width: 100%;
+
+	.row {
+		text-align: center;
+	}
+
+	h4 {
+		text-align: center;
+	}
+
+	&__tech-box,
+	&__lang-box {
+		width: calc((100%/3) - 10px);
+		float: left;
+	}
+
+	&__lang-box {
+		margin-right: 30px;
+	}
+}
+
+.req__tech {
+
+	&-name {
+		flex-grow: 1;
+		text-align: center;
+		margin-right: 20px;		
+	}
+
+	&-stars {			
+		width: auto;
+	}	
+}
+
+.req__tech-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	li {
+		min-width: 150px;
+		display: flex;
+		align-items: center;
+	}
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+.btn-class {
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.exp-component {
+	box-shadow: 0 2px 18px 5px $shadow;
+	border-radius: 5px;
+	background: #fff;
+	padding: 3rem;
+
+}
+
+@media (max-width: 933px) {
+	.header {
+		.header__list {
+			width: auto;
+		}
+	}
+
+	.req {
+
+		.row {
+			display: block;
+		}
+
+		&__tech-name {
+			max-width: 150px;
+			flex-grow: 0;
+		}
+
+		&__tech-box,
+		&__lang-box {
+			float: none;
+			display: block;
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		.empty {
+			flex-grow: 1;
+		}		
+	}		
+}
+
+@media (max-width: 860px) {
+
+	.header {
+
+		&__list {
+			padding: 0;
+		}
+
+		.short-info {
+			
+			&__pos {
+				height: auto;
+			}
+		}		
+	}
+
+
+}
+
+@media (max-width: 668px) {
+
+	.job-expander {
+		.exp-component {
+			padding: 3rem 2rem;
+		}
+	}
+
+	.header {
+
+		&.exp-component {
+			padding: 8rem 2rem 3rem;
+		}
+
+		&__list {
+			margin: 0;
+			margin-bottom: 2rem;
+		}
+
+		.company__info {
+			display: block;
+			margin-bottom: 2rem;
+
+			&-logo {
+				margin-bottom: 2rem;
+			}
+
+			&-link {
+				min-width: auto;
+			}
+
+			&-link a {
+				text-align: center;
+				margin: 0;
+			}			
+		}
+	}
+
+	.header {
+
+		.short-info {
+
+			.header__list {
+				margin: 0;
+			}
+			
+			&__pos {
+				height: auto;
+				display: block;
+				margin-bottom: 2rem;
+			}
+		}
+	}
+
+	.benefits {
+
+		&__list {
+
+			li .benefits__benefit{
+				margin: 0;
+			}
+		}
+	}
+
+	.req {
+
+		&__tech-box,
+		&__lang-box {
+			width: 100%;
+		}
+		
+		&__tech-list {
+
+			.req__tech-name {
+				margin: 0;
+				text-align: left;
+			}
+		}
+	}
+}

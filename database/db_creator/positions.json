@@ -1,0 +1,166 @@
+[{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcaea"
+	},
+	"titles": [
+		{
+			"$oid": "5b00a9ef75d54203c9dbcaeb"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcaed"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcaef"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcaf1"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcaf3"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcaf5"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcaf7"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcaf9"
+		}
+	],
+	"name": "Frontend",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcafb"
+	},
+	"titles": [
+		{
+			"$oid": "5b00a9ef75d54203c9dbcafc"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcafe"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb00"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb02"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb04"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb06"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb08"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb0a"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb0c"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb0e"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb10"
+		}
+	],
+	"name": "Backend",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb12"
+	},
+	"titles": [
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb13"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb15"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb17"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb19"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb1b"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb1d"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb1f"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb21"
+		}
+	],
+	"name": "Fullstack",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb23"
+	},
+	"titles": [
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb24"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb26"
+		}
+	],
+	"name": "Testing",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb28"
+	},
+	"titles": [
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb29"
+		}
+	],
+	"name": "DevOps",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb2b"
+	},
+	"titles": [
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb2c"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb2e"
+		}
+	],
+	"name": "UX",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b00a9ef75d54203c9dbcb30"
+	},
+	"titles": [
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb31"
+		},
+		{
+			"$oid": "5b00a9ef75d54203c9dbcb33"
+		}
+	],
+	"name": "PM",
+	"__v": 0
+}]
+

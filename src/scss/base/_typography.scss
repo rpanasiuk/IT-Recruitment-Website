@@ -1,0 +1,31 @@
+.section-header {
+	margin-bottom:80px;
+
+	&__title {
+		margin-top:10px;
+		text-align: center;
+		font-size: 4rem;
+		text-transform: uppercase;
+		position: relative;
+	    padding-bottom:20px;
+	    font-weight: 500;
+
+		&:after {
+			content:'';
+			position: absolute;
+			left:50%;
+			bottom:0;
+			transform:translateX(-50%);
+			width:125px;
+			height:2px;
+			background: #ddd;
+		}
+	}
+}
+
+@media (max-width:515px) {
+
+	.section-header {
+		margin-bottom:3rem;
+	}
+}

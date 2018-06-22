@@ -1,0 +1,11 @@
+@keyframes loadingAnim {
+    100% {
+        transform: translate(-50%, -50%)  rotate(360deg);
+    }
+}
+
+@keyframes mainHeroScrollAnim {
+    100% {
+        margin-top:22px;
+    }
+}

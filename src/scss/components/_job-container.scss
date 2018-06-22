@@ -1,0 +1,125 @@
+.main-job {
+	padding: 30px 0 30px;
+	min-height: 500px;
+	background: $background-light;
+
+	.container {
+		padding: 0 30px;
+		max-width: auto;
+		min-height: 500px;
+	}
+
+	.row {
+		@include clearfix;
+		margin: 0 30px;
+		position: relative;
+	}
+}
+
+.main-job__contain {
+	display: block;
+	list-style: none;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+}
+
+.contain {
+	max-width: 520px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+
+.main-job__btn:first-of-type {
+	display: none;
+}
+
+.banner-prev,
+.banner-next {
+    position: absolute;
+    left:-5%;
+    top:0;
+    width: 25px;
+    height:100%;
+    border:0;
+    background: none;
+    overflow: hidden;
+    text-indent:-9999px;
+    padding: 0;
+    cursor: pointer;
+}
+.banner-next {
+    right:-5%;
+    left:auto;
+}
+.banner-prev:before,
+.banner-next:before {
+    content: '\f104';
+    position: absolute;
+    left: 50%;
+    top: 410px;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: #222;
+    text-indent: 0;
+    font-family: 'FontAwesome';
+}
+.banner-next:before {
+    content: '\f105';
+}
+
+
+@media (min-width: 934px) {
+
+	.contain {
+		max-width: calc(260px * 3);
+	}
+}
+
+@media (max-width: 933px) {
+
+	.banner-prev,
+	.banner-next {
+		display: inline-block;
+	    position: relative;
+	    left: 0;
+	    width: 50%;
+	    height:100%;
+	}
+
+	.banner-prev:before,
+	.banner-next:before {
+	    left: 50%;
+	    top: 50%;
+	}
+
+	.banner-next:before {
+	    content: '\f105';
+	}
+
+	.main-job__btn {
+		height: 70px;
+		display: flex;
+
+		&:first-of-type {
+			display: flex;
+		}
+	}
+}
+
+@media (max-width: 665px) {
+
+	.main-job {
+
+		.row {
+			margin: 0;
+		}
+	}
+
+	.contain {
+		max-width: calc(260px * 1);
+	}
+}

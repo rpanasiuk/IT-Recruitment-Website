@@ -1,0 +1,59 @@
+.box {
+    max-width:500px;
+    margin-left:auto;
+    margin-right: auto;
+
+    &__photo {
+        position: relative;
+        display: inline-block;
+        margin-bottom:20px;
+
+        img {
+            overflow: hidden;
+            display: block;
+            max-width: 100%;
+            height:auto;
+        }
+
+        &-overlay {
+            opacity:0;
+            background: rgba($color1, 0.6);
+            transition: 0.5s all;
+            position: absolute;
+            left:0;
+            top:0;
+            width: 100%;
+            height: 100%;
+        }
+
+        &-overlay:before,
+        &-overlay:after {
+            content:'';
+            width:60px;
+            height:1px;
+            background:rgba(#fff, 1);
+            position: absolute;
+            left:50%;
+            top:50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &-overlay:after {
+            transform: translate(-50%, -50%) rotate(-90deg);
+        }
+
+        &:hover &-overlay {
+            opacity:1;
+        }
+    }
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+    }
+    &__content {
+        font-size: 1.6rem;
+        margin-bottom: 40px;
+        color: $grey-font-color;
+    }    
+}
