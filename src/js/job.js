@@ -87,7 +87,6 @@ class Container {
 	}
 
 	showDoesNotExist(box, id) {
-		box.addClass('show');
 		this.moveOrCreateExpander(box, id);			
 	}
 
@@ -177,6 +176,7 @@ class Container {
 				this.$exit = exp.find('.exit').first();
 
 				exp.slideDown( "slow", () => {
+					box.addClass('show');
 					this.startExpanderExitEvent(box, exp, this.$exit);
 					this.startResizeEvent(exp);
 					$(this.jobContainer).removeClass('processing');
@@ -186,12 +186,12 @@ class Container {
 	}
 
 	hideBoxExpander(box, expander) {
-
+		box.removeClass('show');
+		
 		expander.slideUp( "slow", () => {
 
 			return Promise.resolve(expander.attr('class', 'hide'))
-				.then(() => {
-					box.removeClass('show');
+				.then(() => {					
 					box.append(expander);
 				})
 				.then(() => {
