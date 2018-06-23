@@ -2,14 +2,15 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const JobSchema = new Schema({
-	position: {
-		type: Schema.Types.ObjectId,
-		refPath: 'position.name'
-	},
 
 	title: {
 		type: Schema.Types.ObjectId,
-		refPath: 'position.titles'
+		ref: 'title'
+	},
+
+	company: {
+		type: Schema.Types.ObjectId,
+		ref: 'company'		
 	},
 
 	description: {

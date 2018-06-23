@@ -1,20 +1,20 @@
 [{
 	"_id": {
-		"$oid": "5b00a9ef75d54203c9dbcb35"
+		"$oid": "5b2e95abd7baa937406919e3"
 	},
 	"name": "PLN",
 	"__v": 0
 },
 {
 	"_id": {
-		"$oid": "5b00a9ef75d54203c9dbcb36"
+		"$oid": "5b2e95abd7baa937406919e4"
 	},
 	"name": "EUR",
 	"__v": 0
 },
 {
 	"_id": {
-		"$oid": "5b00a9ef75d54203c9dbcb37"
+		"$oid": "5b2e95abd7baa937406919e5"
 	},
 	"name": "USD",
 	"__v": 0

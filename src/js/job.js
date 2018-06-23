@@ -238,8 +238,8 @@ class Container {
 
 	makeButtons() {
 
-		const $btnPrev = $('.main-job__btn .banner-prev');
-		const $btnNext = $('.main-job__btn .banner-next');
+		const $btnPrev = $('.main-job__btn .main-job__prev');
+		const $btnNext = $('.main-job__btn .main-job__next');
 
 		$btnPrev.on('click', () => {
 			this.prevPage();

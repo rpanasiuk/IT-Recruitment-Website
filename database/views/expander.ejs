@@ -7,34 +7,38 @@
 			<div class="company">
 				<div class="company__info">
 					<div class="company__info-logo">
-						<a href="#">
+						<a href="https://www.<%= jobs.company.url %>">
 							<img src="http://via.placeholder.com/100x100">
 						</a>
 					</div>
 					<div class="company__info-link">
-						<a>Janusz Soft Sp. z o.o.</a>
+						<a href="https://www.<%= jobs.company.url %>" target="_blank"><%= jobs.company.name %></a>
 					</div>
 				</div>
 				<ul class="header__list">
 					<li>
 						<span class="word">Markets:</span>
 						<span class="empty">&nbsp;</span>
-						<span class="input">Fintech</span>
+						<span class="input"><%= jobs.company.markets[0].name %></span>
 					</li>
 					<li>
 						<span class="word">Company size:</span>
 						<span class="empty">&nbsp;</span>
-						<span class="input">180+</span>
+						<span class="input"><%= jobs.company.size %>+</span>
 					</li>
 					<li>
 						<span class="word">Remote friendly:</span>
 						<span class="empty">&nbsp;</span>
-						<span class="input">Yes</span>
+						<% if (jobs.company.remoteFriendly) { %>
+							<span class="input">Yes</span>
+						<% } else { %>
+							<span class="input">No</span>
+						<% } %>
 					</li>
 					<li>
 						<span class="word">Job offers:</span>
 						<span class="empty">&nbsp;</span>
-						<span class="input">12</span>
+						<span class="input">-</span>
 					</li>
 				</ul>
 			</div>
@@ -44,7 +48,7 @@
 				
 			
 				<div class="short-info__pos">
-					<h3>developer</h3>
+					<h3><%= jobs.title.name %></h3>
 				</div>
 				
 				<ul class="header__list">
@@ -174,6 +178,6 @@
 		</div>											
 	</div>
 	<div class="btn-class">
-		<a href="#" class="btn">aplikuj</a>
+		<a href="#" class="btn">apply</a>
 	</div>
 </div>

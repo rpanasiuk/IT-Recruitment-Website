@@ -1,0 +1,43 @@
+[{
+	"_id": {
+		"$oid": "5b2e95abd7baa93740691a17"
+	},
+	"name": "Fintech",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b2e95abd7baa93740691a18"
+	},
+	"name": "Research",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b2e95abd7baa93740691a19"
+	},
+	"name": "Security",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b2e95abd7baa93740691a1a"
+	},
+	"name": "Big Data",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b2e95abd7baa93740691a1b"
+	},
+	"name": "Telecom",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b2e95abd7baa93740691a1c"
+	},
+	"name": "Software House",
+	"__v": 0
+}]
+

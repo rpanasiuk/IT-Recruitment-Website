@@ -6,3 +6,5 @@ const MarketSchema = new Schema({
 });
 
 const Market = mongoose.model('market', MarketSchema);
+
+module.exports = Market;

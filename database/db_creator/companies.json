@@ -1,0 +1,65 @@
+[{
+	"_id": {
+		"$oid": "5b2e95bc4b8b0337ab0843ae"
+	},
+	"markets": [
+		{
+			"$oid": "5b2e95abd7baa93740691a17"
+		}
+	],
+	"name": "Cloud Clock Ltd.",
+	"logo": "cloud_clock.png",
+	"url": "cloudclock.com",
+	"remoteFriendly": true,
+	"size": 100,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b2e95bc4b8b0337ab0843af"
+	},
+	"markets": [
+		{
+			"$oid": "5b2e95abd7baa93740691a1a"
+		}
+	],
+	"name": "Docleak",
+	"logo": "docleak.png",
+	"url": "docleak.com",
+	"remoteFriendly": true,
+	"size": 200,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b2e95bc4b8b0337ab0843b0"
+	},
+	"markets": [
+		{
+			"$oid": "5b2e95abd7baa93740691a1a"
+		}
+	],
+	"name": "Matrix",
+	"logo": "matrix.png",
+	"url": "matrixsecurity.com",
+	"remoteFriendly": false,
+	"size": 300,
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "5b2e95bc4b8b0337ab0843b1"
+	},
+	"markets": [
+		{
+			"$oid": "5b2e95abd7baa93740691a18"
+		}
+	],
+	"name": "Real Estate Company",
+	"logo": "realestate.png",
+	"url": "realestate.com",
+	"remoteFriendly": false,
+	"size": 400,
+	"__v": 0
+}]
+

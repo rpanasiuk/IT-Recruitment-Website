@@ -13,6 +13,10 @@ require('./database/models/technology.js');
 require('./database/models/currency.js');
 require('./database/models/location.js');
 require('./database/models/title.js');
+require('./database/models/position.js');
+require('./database/models/market.js');
+require('./database/models/job.js');
+require('./database/models/company.js');
 
 const routes = require('./database/routes/routes.js');
 

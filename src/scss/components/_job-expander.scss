@@ -57,7 +57,6 @@
 		flex: 1;		
 		justify-content: center;
 		text-align: center;
-		margin-bottom: 0.6rem;
 
 		img {
 			display: block;
@@ -73,8 +72,14 @@
 		min-width: 200px;
 
 		a {
+			text-decoration: none;
 			margin: 0 10px;
 			display: block;
+			font-weight: bold;
+
+			&:link {
+				color: #000;
+			}
 		}
 	}
 }
